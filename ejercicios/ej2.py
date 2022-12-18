@@ -4,7 +4,9 @@ def verticalRooks(r1, r2):
   jug2=  [int(input()) for i in range(n)]
   sum=0
   for i1 in range(n):
-    
+    n1= abs(jug1[i]- jug2[i])
+    sum ^= (n1 -1)
+  if sum !=
 
 if __name__ == '__main__':
    fptr = open(os.environ['OUTPUT_PATH'], 'w')
